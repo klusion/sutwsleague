@@ -100,7 +100,7 @@
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: League Rules</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: General Information</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 - Changes for 2022</h4>
             <!-- <h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5> -->
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 - Fantasy Platform</h4>
@@ -125,7 +125,7 @@
 	<h4 class="noUnderscore clickable" on:click={() => goToSection(threeThree)}>3.3 - League Divisions</h4>
 	<h4 class="noUnderscore clickable" on:click={() => goToSection(threeFour)}>3.4 - Consolation Pick</h4>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Scoring System</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Scoring</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 - Passing</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.2 - Rushing</h4>
@@ -135,21 +135,21 @@
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Transactions</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 - Waivers</h4>
-	    <h5 class="noUnderscore clickable" on:click={() => goToSection(fiveOneOne)}>5.1.1 - FAAB (Free Agent Acquisition Budget)</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(fiveOneTwo)}>5.1.2 - Waiver Schedule</h5>
+	    <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOneOne)}>5.1.1 - FAAB (Free Agent Acquisition Budget)</h4>
+            <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOneTwo)}>5.1.2 - Waiver Schedule</h4>
 	<h4 class="noUnderscore clickable" on:click={() => goToSection(fiveTwo)}>5.2 - Trades</h4>
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Playoffs</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 - Seeding</h4>
-	    	<h5 class="noUnderscore clickable" on:click={() => goToSection(sixOneOne)}>6.1.1 - 8-team League</h5>
-            	<h5 class="noUnderscore clickable" on:click={() => goToSection(sixOneTwo)}>6.1.2 - 10-team League</h5>
-		<h5 class="noUnderscore clickable" on:click={() => goToSection(sixOneThree)}>6.1.3 - 12-team League</h5>
-		<h5 class="noUnderscore clickable" on:click={() => goToSection(sixOneFour)}>6.1.4 - 14-team League</h5>
+	    	<h4 class="noUnderscore clickable" on:click={() => goToSection(sixOneOne)}>6.1.1 - 8-team League</h4>
+            	<h4 class="noUnderscore clickable" on:click={() => goToSection(sixOneTwo)}>6.1.2 - 10-team League</h4>
+		<h4 class="noUnderscore clickable" on:click={() => goToSection(sixOneThree)}>6.1.3 - 12-team League</h4>
+		<h4 class="noUnderscore clickable" on:click={() => goToSection(sixOneFour)}>6.1.4 - 14-team League</h4>
         <!-- <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4> -->
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: Keeper Rules</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: Keepers</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 - Changes for 2022</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenTwo)}>7.2 - Drafted Players</h4>
@@ -160,7 +160,7 @@
     
     <hr />
     
-    <h2 class="sectionHeading" bind:this={one}>Section 1: League Rules</h2>
+    <h2 class="sectionHeading" bind:this={one}>Section 1: General Information</h2>
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 - Changes for 2022</h3>
     
@@ -367,7 +367,7 @@
     		</div>
     
 
-    <h2 class="sectionHeading" bind:this={seven}>Section 7: Keeper Rules</h2>
+    <h2 class="sectionHeading" bind:this={seven}>Section 7: Keepers</h2>
     
     <h3 bind:this={sevenOne}>7.1 - Changes for 2022</h3>
     <p>Placeholder</p>
