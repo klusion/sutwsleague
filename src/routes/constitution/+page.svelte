@@ -142,7 +142,7 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Playoffs</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 - Seeding</h4>
-	    	<h5 class="noUnderscore clickable" on:click={() => goToSection(sixOneOne)}>6.1.1 - 8-team League</h5>
+	    	<h5 class="noUnderscore clickable" on:click={() => goToSection(sixOneOne)}>6.1.1 - 8-Team League</h5>
             	<h5 class="noUnderscore clickable" on:click={() => goToSection(sixOneTwo)}>6.1.2 - 10-team League</h5>
 		<h5 class="noUnderscore clickable" on:click={() => goToSection(sixOneThree)}>6.1.3 - 12-team League</h5>
 		<h5 class="noUnderscore clickable" on:click={() => goToSection(sixOneFour)}>6.1.4 - 14-team League</h5>
@@ -425,6 +425,7 @@
     <p>The playoffs begin Week 15 and end Week 17 (one week before the regular season ends). It is single-elimination.</p>
 	
     <h3 bind:this={sixOne}>6.1 - Seeding</h3>
+	<p>Every team advances to the playoffs. There is no first round "bye". Playoff seeding is based on record.</p>
 	<h4 bind:this={sixOneOne}>6.1.1 - 8-team League</h4>
     		<div class="subBlock">
         		<p>Every team advances to the playoffs. There is no first round "bye". Playoff seeding is based on record.</p>
