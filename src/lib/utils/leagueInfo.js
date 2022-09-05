@@ -49,8 +49,7 @@ export const managers = [
        "name": "Phillip Goslin",
        "tookOver": 2016, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
-       "bio": "Coming soon...",
-		bc99b73 (Update leagueInfo.js)
+       "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2016, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -72,8 +71,7 @@ export const managers = [
        "name": "Earl Wood",
        "tookOver": 2019, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
-       "bio": "Coming soon...",
-		bc99b73 (Update leagueInfo.js)
+       "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2019, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "den", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -95,8 +93,7 @@ export const managers = [
        "name": "Adrian Jordan",
        "tookOver": 2016, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
-       "bio": "Coming soon...",
-		bc99b73 (Update leagueInfo.js)
+       "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2010, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -118,8 +115,7 @@ export const managers = [
        "name": "Sean Richardson",
        "tookOver": 2021, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Jacksonville", // (optional)
-       "bio": "Coming soon...",
-		bc99b73 (Update leagueInfo.js)
+       "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2021, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "jac", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -141,8 +137,7 @@ export const managers = [
        "name": "Kevin Conway",
        "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
-       "bio": "Coming soon...",
-		bc99b73 (Update leagueInfo.js)
+       "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2020, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "kc", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -164,8 +159,7 @@ export const managers = [
        "name": "Linda Lankford",
        "tookOver": 2018, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
-       "bio": "Coming soon...",
-		bc99b73 (Update leagueInfo.js)
+       "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2018, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "ten", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -187,8 +181,7 @@ export const managers = [
        "name": "Khaleel Gatson-Bey",
        "tookOver": 2016, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
-       "bio": "Coming soon...",
-		bc99b73 (Update leagueInfo.js)
+       "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2010, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -210,8 +203,7 @@ export const managers = [
        "name": "Lori Wood",
        "tookOver": 2021, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
-       "bio": "Coming soon...",
-		bc99b73 (Update leagueInfo.js)
+       "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2021, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -233,8 +225,7 @@ export const managers = [
        "name": "Will Lovell",
        "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Dallas", // (optional)
-       "bio": "Coming soon...",
-		bc99b73 (Update leagueInfo.js)
+       "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -256,8 +247,7 @@ export const managers = [
        "name": "Adam Grieves / Elijah Grieves",
        "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
-       "bio": "Coming soon...",
-		bc99b73 (Update leagueInfo.js)
+       "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -279,8 +269,7 @@ export const managers = [
        "name": "Dimitri Washington",
        "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
-       "bio": "Coming soon...",
-		bc99b73 (Update leagueInfo.js)
+       "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
