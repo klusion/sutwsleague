@@ -337,13 +337,45 @@
     </ul>
 	
     <h3 bind:this={fourThree}>4.3 - Receiving</h3>
-    <p>Placeholder</p>
+    <ul>
+        <li>Half PPR (half point-per-reception)</li>
+	<li>Reception = .5 points</li>
+        <li>Receiving Play of 40+ yards = .5 bonus points</li>
+	<li>Receiving Touchdown of 40+ yards = .5 bonus points</li>
+    	<li>100-199 Receiving Yards = 1 bonus point</li>
+    	<li>200+ Receiving Yards = 1 bonus point</li>
+    	<li>200+ Rushing and Receiving Yards Combined = 1 bonus point</li>
+    </ul>
 
     <h3 bind:this={fourFour}>4.4 - Kicking</h3>
-    <p>Placeholder</p>
+    <ul>
+        <li>PAT = 1 point</li>
+	<li>FG Made (18-39 yards) = 3 points</li>
+        <li>FG Made (40-49 yards) = 4 points</li>
+	<li>FG Made (50+ yards) = 5 points</li>
+    	<li>FG Miss = -1 point</li>
+    </ul>
 
-    <h3 bind:this={fourFive}>4.5 - Receiving</h3>
-    <p>Placeholder</p>
+    <h3 bind:this={fourFive}>4.5 - Defensive</h3>
+    <p>Our defensive scoring is very unique and is based on the actual performance of the defense: sacks, tackles for loss, passes defended, forced punts, etc.</p>
+
+    <ul>
+        <li>Sacks = .5 points</li>
+	<li>Tackles for Loss = .25 points</li>
+        <li>Passes Defended = .25 points</li>
+	<li>Forced Punts = .5 points</li>
+    	<li>3 and Out = .5 points</li>
+	<li>4th Down Stop = 2 points</li>
+	<li>Forced Fumble = 1 point</li>
+    	<li>Fumble Recovery = 1 point</li>
+    	<li>Blocked Kick = 2 points</li>
+    	<li>Interception = 2 points</li>
+	<li>Special Teams Touchdown = 6 points</li>
+	<li>Safety = 4 points</li>
+	<li>Points Allowed (21-27) = -1 point</li>
+	<li>Points Allowed (28-34) = -1 point</li>
+    	<li>Points Allowed (35+) = -1 point</li>
+    </ul>
 
     <!-- <ol>
         <li>Points For</li>
