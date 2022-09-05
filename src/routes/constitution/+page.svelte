@@ -399,21 +399,21 @@
     		</div>
 	
     	<h4 bind:this={fiveOneTwo}>5.1.2 - Waiver Schedule</h4>
-	<p>Waivers are processed Wednesday through Sunday at 6am.</p>
 		<div class="subBlock">
+		<p>Waivers are processed Wednesday through Sunday at 6am.</p>
 		    <ul>
 			<li>Sunday = Free Agency</li>
 			<li>Monday = Free Agency</li>
 			<li>Tuesday = Locked</li>
-			<li>Wednesday = Waivers at 6am</li>
-			<li>Thursday = Waivers at 6am</li>
-			<li>Friday = Waivers at 6am</li>
-			<li>Saturday = Waivers at 6am</li>
+			<li>Wednesday = Waivers run at 6am</li>
+			<li>Thursday = Waivers run at 6am</li>
+			<li>Friday = Waivers run at 6am</li>
+			<li>Saturday = Waivers run at 6am</li>
 		    </ul>
     		</div>
 
     <h3 bind:this={fiveTwo}>5.2 - Trades</h3>
-    <p>Trades are processed immediately. Trades will only be reverted if collusion is determined. I’m for competitive balance, and just because a trade seems unfair doesn’t mean it shouldn’t be allowed. Bad trades happen all the time in the NFL. 
+    <p>Trades are processed immediately once agreed upon. A trade will only be reverted if collusion is determined. I’m for competitive balance, and just because a trade seems unfair doesn’t mean it shouldn’t be allowed. Bad trades happen all the time in the NFL. 
 	    If the league collectively voices they are against a trade, I will create a poll and ask everyone to vote for or against the trade.</p>
 
     <p>Multi-team trades are possible in Sleeper, so feel free to work with multiple teams. It is also possible to trade FAAB and draft picks. If you are trading draft picks, make sure the amount of draft picks traded away and received are equal. All teams must have the same amount of draft picks on draft day. 
@@ -422,26 +422,30 @@
     <p>If an owner leaves that traded away future draft picks, we will compensate by adding additional money to the slighted owner’s FAAB budget (depending on the draft round that was traded) and placing them first in the waiver priority for the first week.</p>
 	
     <h2 class="sectionHeading" bind:this={six}>Section 6: Playoffs</h2>
-    
+    <p>The playoffs begin Week 15 and end Week 17 (one week before the regular season ends). It is single-elimination.</p>
+	
     <h3 bind:this={sixOne}>6.1 - Seeding</h3>
 	<h4 bind:this={sixOneOne}>6.1.1 - 8-team League</h4>
     		<div class="subBlock">
-        		<p>Placeholder</p>
+        		<p>Every team advances to the playoffs. There is no first round "bye". Playoff seeding is based on record.</p>
     		</div>
 	
 	<h4 bind:this={sixOneTwo}>6.1.2 - 10-team League</h4>
     		<div class="subBlock">
-        		<p>Placeholder</p>
+        		<p>Six teams advance to the playoffs. The winner of each division secures a playoff seed and a first round "bye" (1st and 2nd seed). The remaining teams are vying for the last four spots. The top three with the best records of the remaining teams will be the 3rd, 4th, and 5th seeds. 
+			Finally, the team with the most "total points for" of the remaining 5 teams will be the 6th seed.</p>
     		</div>
 	
 	<h4 bind:this={sixOneThree}>6.1.3 - 12-team League</h4>
     		<div class="subBlock">
-        		<p>Placeholder</p>
+        		<p>Six teams advance to the playoffs. The winner of each division secures a playoff seed, and the two teams with the best records secure a first round "bye" (1st and 2nd seed). The remaining teams are vying for the last three spots. The top two with the best records of the remaining teams will be the 4th and 5th seeds. 
+			Finally, the team with the most "total points for" of the remaining 5 teams will be the 6th seed.</p>
     		</div>
 	
 	<h4 bind:this={sixOneFour}>6.1.4 - 14-team League</h4>
     		<div class="subBlock">
-        		<p>Placeholder</p>
+        		<p>Eight teams advance to the playoffs. The winner of each division secures a playoff seed (1st and 2nd seed). There is no first round "bye". The remaining teams are vying for the last six spots. The top five with the best records of the remaining teams will be the 3rd through 7th seeds. 
+			Finally, the team with the most "total points for" of the remaining 5 teams will be the 8th seed.</p>
     		</div>
     
 
