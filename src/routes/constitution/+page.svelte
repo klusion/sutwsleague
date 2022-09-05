@@ -2,11 +2,11 @@
     import { dues } from '$lib/utils/helper';
     let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree, oneFour;
     let two, twoOne, twoTwo, twoThree;
-    let three, threeOne;
-    let four, fourOne, fourTwo;
-    let five, fiveOne;
-    let six, sixOne, sixTwo, sixThree;
-    let seven, sevenOne, sevenTwo, sevenThree;
+    let three, threeOne, threeTwo, threeThree, threeFour;
+    let four, fourOne, fourTwo, fourThree, fourFour, fourFive;
+    let five, fiveOne, fiveOneOne, fiveOneTwo, fiveTwo;
+    let six, sixOne, sixOneOne, sixOneTwo, sixOneThree, sixOneFour;
+    let seven, sevenOne, sevenTwo, sevenThree, sevenFour, sevenFive;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -112,36 +112,50 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 - League Fees</h4>
 	<h4 class="noUnderscore clickable" on:click={() => goToSection(oneFour)}>1.4 - League Payout</h4>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Drafting</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Rosters</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 Draft Order</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 Rookie Drafts</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoThree)}>2.3 Draft Day Trades</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 - Starters</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 - Bench</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoThree)}>2.3 - Injured Reserved</h4>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: Scoring System</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: Draft Rules</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.1 Voting on Scoring System</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.1 - Draft Type</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(threeTwo)}>3.2 - Draft Order</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(threeThree)}>3.3 - League Divisions</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(threeFour)}>3.4 - Consolation Pick</h4>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Postseason</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Scoring System</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 Playoffs</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.2 Playoff Tiebreakers</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 - Passing</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.2 - Rushing</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(fourThree)}>4.3 - Receiving</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(fourFour)}>4.4 - Kicking</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(fourFive)}>4.5 - Defensive</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Tanking Policy</h3>
-    
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 League Tanking Policy</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Transactions</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 - Waivers</h4>
+	    <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>5.1.1 - Free Agent Aquisition Budget (FAAB)</h5>
+            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>5.1.2 - Waiver Schedule</h5>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(fiveTwo)}>5.2 - Trades</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Replacing Managers</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Playoffs</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 Removing Managers</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 - Seeding</h4>
+	    	<h5 class="noUnderscore clickable" on:click={() => goToSection(sixOneOne)}>6.1.1 - 8-team League</h5>
+            	<h5 class="noUnderscore clickable" on:click={() => goToSection(sixOneTwo)}>6.1.2 - 10-team League</h5>
+		<h5 class="noUnderscore clickable" on:click={() => goToSection(sixOneThree)}>6.1.3 - 12-team League</h5>
+		<h5 class="noUnderscore clickable" on:click={() => goToSection(sixOneFour)}>6.1.4 - 14-team League</h5>
+        <!-- <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4> -->
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: League Finances</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: Keeper Rules</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 League Dues</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>7.2 Payout</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.3 Raising Dues</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenTwo)}>7.2 Payout</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenThree)}>7.3 Raising Dues</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(sevenFour)}>7.4 Raising Dues</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(sevenFive)}>7.5 Raising Dues</h4>
     
     
     <hr />
@@ -250,71 +264,124 @@
 	<li>Side pot: ${dues * .5} (highest weekly point total for the entire season)</li>
     </ul>
     
-    <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
+    <h2 class="sectionHeading" bind:this={two}>Section 2: Drafting</h2>
     
-    <h3 bind:this={twoOne}>2.1 Draft Order</h3>
-    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
+    <h3 bind:this={twoOne}>2.1 - Starters</h3>
+    <ul>
+        <li>QB</li>
+        <li>RB</li>
+	<li>RB</li>
+	<li>WR</li>
+    	<li>WR</li>
+    	<li>FLEX (RB/WR/TE)</li>
+    	<li>FLEX (RB/WR/TE)</li>
+	<li>K</li>
+    	<li>DEF</li>
+	<li>Note: There is no explicit TE position required for starters.</li>
+    </ul>
 
-    <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
-    <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
+    <h3 bind:this={twoTwo}>2.2 - Bench</h3>
+    <p>There are six bench spots available for any position. There are no position limits.</p>
     
-    <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
-    <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
+    <h3 bind:this={twoThree}>2.3 - Injured Reserved</h3>
+    <p>There is one injured reserved position. The following designations are allowed: OUT, Doubtful, IR, and COVID-19.</p>
     
-    <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
+    <h2 class="sectionHeading" bind:this={three}>Section 3: Draft Rules</h2>
 
-    <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring). The scoring system will never change without a majority league vote.</p>
-    
-    <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
-    
-    <h3 bind:this={fourOne}>4.1 Playoffs</h3>
-    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
-    
-    <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
-    <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
+    <h3 bind:this={threeOne}>3.1 - Draft Type</h3>
+    <p>Placeholder</p>
 
-    <ol>
+    <h3 bind:this={threeTwo}>3.2 - Draft Order</h3>
+    <p>Placeholder</p>
+
+    <h3 bind:this={threeThree}>3.3 - League Divisions</h3>
+    <p>Placeholder</p>
+	
+    <h3 bind:this={threeFour}>3.4 - Consolation Pick</h3>
+    <p>Placeholder</p>
+    
+    <h2 class="sectionHeading" bind:this={four}>Section 4: Scoring System</h2>
+    
+    <h3 bind:this={fourOne}>4.1 - Passing</h3>
+    <p>Placeholder</p>
+    
+    <h3 bind:this={fourTwo}>4.2 - Rushing</h3>
+    <p>Placeholder</p>
+	
+    <h3 bind:this={fourThree}>4.3 - Receiving</h3>
+    <p>Placeholder</p>
+
+    <h3 bind:this={fourFour}>4.4 - Kicking</h3>
+    <p>Placeholder</p>
+
+    <h3 bind:this={fourFive}>4.5 - Receiving</h3>
+    <p>Placeholder</p>
+
+    <!-- <ol>
         <li>Points For</li>
         <li>Head 2 Head Record</li>
         <li>Division Record</li>
         <li>Total Points Against</li>
         <li>Coin Flip</li>
         <li>Duel to the death</li>
-    </ol>
+    </ol> -->
 
-    <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
+    <h2 class="sectionHeading" bind:this={five}>Section 5: Transactions</h2>
     
-    <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
-    <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
+    <h3 bind:this={fiveOne}>5.1 - Waivers</h3>
+    
+	<h4 bind:this={fiveOneOne}>5.1.1 - Free Agent Aquisition Budget (FAAB)</h4>
+    		<div class="subBlock">
+        		<p>Placeholder</p>
+    		</div>
+	
+    	<h4 bind:this={fiveOneTwo}>5.1.2 - Waiver Schedule</h4>
+    		<div class="subBlock">
+        		<p>Placeholder</p>
+    		</div>
 
-    <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
+    <h3 bind:this={fiveTwo}>5.2 - Trades (FAAB)</h3>
+    <p>Placeholder</p>	
+	
+    <h2 class="sectionHeading" bind:this={six}>Section 6: Trades</h2>
     
-    <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
-    <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally grounds for removal.</p>
+    <h3 bind:this={sixOne}>6.1 - Seeding</h3>
+	<h4 bind:this={sixOneOne}>6.1.1 - 8-team League</h4>
+    		<div class="subBlock">
+        		<p>Placeholder</p>
+    		</div>
+	
+	<h4 bind:this={sixOneTwo}>6.1.2 - 10-team League</h4>
+    		<div class="subBlock">
+        		<p>Placeholder</p>
+    		</div>
+	
+	<h4 bind:this={sixOneThree}>6.1.3 - 12-team League</h4>
+    		<div class="subBlock">
+        		<p>Placeholder</p>
+    		</div>
+	
+	<h4 bind:this={sixOneFour}>6.1.4 - 14-team League</h4>
+    		<div class="subBlock">
+        		<p>Placeholder</p>
+    		</div>
     
-    <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
-    <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
-    
-    <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
-    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
 
-    <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
+    <h2 class="sectionHeading" bind:this={seven}>Section 7: Keeper Rules</h2>
     
-    <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at {dues}$. Dues are collected through <a href="https://www.leaguesafe.com/league/3949641">LeagueSafe</a> and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
+    <h3 bind:this={sevenOne}>7.1 - Changes for 2022</h3>
+    <p>Placeholder</p>
     
-    <h3 bind:this={sevenTwo}>7.2 Payout</h3>
-    <p>League payout is structured as follows:</p>
-    <ul>
-        <li>1st place: {dues * 8}$</li>
-        <li>2nd place: {dues * 3}$</li>
-        <li>3rd place: {dues}$</li>
-    </ul>
-    <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
-    
-    <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
-    <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
+    <h3 bind:this={sevenTwo}>7.2 - General</h3>
+    <p>Placeholder</p>
+
+    <h3 bind:this={sevenThree}>7.3 - Undrafted Players (Free Agents)</h3>
+    <p>Placeholder</p>
+	
+    <h3 bind:this={sevenFour}>7.4 - Trading Keepers</h3>
+    <p>Placeholder</p>
+	
+    <h3 bind:this={sevenFive}>7.5 - Keepers Scenarios</h3>
+    <p>Placeholder</p>
 
 </div>
