@@ -357,7 +357,7 @@
     </ul>
 
     <h3 bind:this={fourFive}>4.5 - Defensive</h3>
-    <p>Our defensive scoring is very unique and is based on the actual performance of the defense: sacks, tackles for loss, passes defended, forced punts, etc.</p>
+    <p>Our defensive scoring is unique and is based on the actual performance of the defense: sacks, tackles for loss, passes defended, forced punts, etc.</p>
 
     <ul>
         <li>Sacks = .5 points</li>
@@ -389,19 +389,37 @@
     <h2 class="sectionHeading" bind:this={five}>Section 5: Transactions</h2>
     
     <h3 bind:this={fiveOne}>5.1 - Waivers</h3>
-    
+    	<p>Waivers function off a combination of modified continuous waivers and blind-bid/free agent acquisition budget (FAAB) system. For more information: <a href="https://www.thefantasyfootballers.com/articles/league-needs-change-waiver-system-asap/">What is a FAAB waiver system?</a></p>
+	
 	<h4 bind:this={fiveOneOne}>5.1.1 - FAAB (Free Agent Acquisition Budget)</h4>
     		<div class="subBlock">
-        		<p>Placeholder</p>
+        		<p>A $100 budget will be given to each team for the season. Each team will have the option to “bid” on players they want during the waiver period, which is from the time that player’s game starts through Wednesday morning at 5am cst. 
+				The amount you bid on the player is the amount that will be deducted from your total waiver budget if your bid is the highest of all the teams.</p>
+			<p>Note: Any player that is dropped will be subject to a waiver period of 24 hours. Any owner can bid on the player during that time.</p>
     		</div>
 	
     	<h4 bind:this={fiveOneTwo}>5.1.2 - Waiver Schedule</h4>
-    		<div class="subBlock">
-        		<p>Placeholder</p>
+	<p>Waivers are processed Wednesday through Sunday at 6am.</p>
+		<div class="subBlock">
+		    <ul>
+			<li>Sunday = Free Agency</li>
+			<li>Monday = Free Agency</li>
+			<li>Tuesday = Locked</li>
+			<li>Wednesday = Waivers at 6am</li>
+			<li>Thursday = Waivers at 6am</li>
+			<li>Friday = Waivers at 6am</li>
+			<li>Saturday = Waivers at 6am</li>
+		    </ul>
     		</div>
 
     <h3 bind:this={fiveTwo}>5.2 - Trades</h3>
-    <p>Placeholder</p>	
+    <p>Trades are processed immediately. Trades will only be reverted if collusion is determined. I’m for competitive balance, and just because a trade seems unfair doesn’t mean it shouldn’t be allowed. Bad trades happen all the time in the NFL. 
+	    If the league collectively voices they are against a trade, I will create a poll and ask everyone to vote for or against the trade.</p>
+
+    <p>Multi-team trades are possible in Sleeper, so feel free to work with multiple teams. It is also possible to trade FAAB and draft picks. If you are trading draft picks, make sure the amount of draft picks traded away and received are equal. All teams must have the same amount of draft picks on draft day. 
+	    Draft pick trades are only allowed for the current year and the upcoming year.</p>
+
+    <p>If an owner leaves that traded away future draft picks, we will compensate by adding additional money to the slighted owner’s FAAB budget (depending on the draft round that was traded) and placing them first in the waiver priority for the first week.</p>
 	
     <h2 class="sectionHeading" bind:this={six}>Section 6: Playoffs</h2>
     
