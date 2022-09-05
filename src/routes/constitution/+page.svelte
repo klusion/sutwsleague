@@ -101,16 +101,16 @@
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: League Rules</h3>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Changes for 2022</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 - Changes for 2022</h4>
             <!-- <h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5> -->
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Fantasy Platform</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 - Fantasy Platform</h4>
             <!-- <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>1.2.2 Lending Players Prohibition</h5>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoThree)}>1.2.3 Trade Deadline</h5>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFour)}>1.2.4 Trade Restrictions</h5>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFive)}>1.2.5 Veto/Trade Process</h5> -->
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 League Fees</h4>
-	<h4 class="noUnderscore clickable" on:click={() => goToSection(oneFour)}>1.4 League Payout</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 - League Fees</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(oneFour)}>1.4 - League Payout</h4>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Drafting</h3>
     
@@ -148,7 +148,7 @@
     
     <h2 class="sectionHeading" bind:this={one}>Section 1: League Rules</h2>
     
-    <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Changes for 2022</h3>
+    <h3 class="subSectionHeading" bind:this={oneOne}>1.1 - Changes for 2022</h3>
     
     <!-- <p>28 Total Players</p>
     
@@ -179,9 +179,9 @@
         </div> -->
 
 
-    <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Fantasy Platform</h3>
+    <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 - Fantasy Platform</h3>
 
-    <p>We use the Sleeper fantasy football platform: <a href="https://sleeper.app">https://sleeper.app</a>. Sleeper has only been around for a few years, but it is built on a modern platform that allows for custom scoring, roster positions, keeper rules, etc. Sleeper has a web app, iOS, and Android app for real-time updates and notifications.</p>
+    <p>We use the Sleeper fantasy football platform: <a href="https://sleeper.app">https://sleeper.app</a>. Sleeper has been around for a few years, and is built on a modern platform that allows for custom scoring, roster positions, keeper rules, etc. Sleeper has a web app, iOS, and Android app for real-time updates and notifications.</p>
         
     <!-- <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
     
@@ -223,7 +223,7 @@
     </div> -->
     
        
-    <h3 bind:this={oneThree}>1.3 League Fees</h3>
+    <h3 bind:this={oneThree}>1.3 - League Fees</h3>
     
     <p>League fees are ${dues} every season. Fees are collected through <a href="https://www.leaguesafe.com/league/4044415">LeagueSafe</a> and are due the day of the draft pick lottery. The draft pick lottery is one week before the draft, which is held two Fridays before Labor Day weekend. All managers must be fully paid before the draft pick lottery will be performed.</p>
 	
@@ -231,7 +231,7 @@
 
     <p>FAAB budgets will reset each season in January.</p> -->
     
-    <h3 bind:this={oneFour}>1.4 League Payout</h3>
+    <h3 bind:this={oneFour}>1.4 - League Payout</h3>
     
     <p>League payout is structured as follows:</p>
     <ul>
