@@ -233,12 +233,21 @@
     
     <h3 bind:this={oneFour}>1.4 - League Payout</h3>
     
-    <p>League payout is structured as follows:</p>
+    <p>The league payout is structured as follows for a 12-team league:</p>
     <ul>
         <li>1st place: ${dues * 5.5}</li>
         <li>2nd place: ${dues * 3.5}</li>
         <li>3rd place: ${dues * 2}</li>
     	<li>4th place: ${dues}</li>
+    </ul>
+
+    <p>The league payout is structured as follows for a 10-team league:</p>
+    <ul>
+        <li>1st place: ${dues * 4.5}</li>
+        <li>2nd place: ${dues * 3}</li>
+        <li>3rd place: ${dues * 1.5}</li>
+    	<li>4th place: ${dues * .5}</li>
+	<li>Side pot: ${dues * .5} (highest weekly point total for the entire season)</li>
     </ul>
     
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
