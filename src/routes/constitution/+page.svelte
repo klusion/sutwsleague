@@ -1,6 +1,6 @@
 <script>
     import { dues } from '$lib/utils/helper';
-    let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree, oneFour;
+    let one, oneOne, oneTwo, oneThree, oneFour;
     let two, twoOne, twoTwo, twoThree;
     let three, threeOne, threeTwo, threeThree, threeFour;
     let four, fourOne, fourTwo, fourThree, fourFour, fourFive;
@@ -135,8 +135,8 @@
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Transactions</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 - Waivers</h4>
-	    <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>5.1.1 - Free Agent Aquisition Budget (FAAB)</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>5.1.2 - Waiver Schedule</h5>
+	    <h5 class="noUnderscore clickable" on:click={() => goToSection(fiveOneOne)}>5.1.1 - FAAB (Free Agent Acquisition Budget)</h5>
+            <h5 class="noUnderscore clickable" on:click={() => goToSection(fiveOneTwo)}>5.1.2 - Waiver Schedule</h5>
 	<h4 class="noUnderscore clickable" on:click={() => goToSection(fiveTwo)}>5.2 - Trades</h4>
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Playoffs</h3>
@@ -277,14 +277,14 @@
     	<li>FLEX (RB/WR/TE)</li>
 	<li>K</li>
     	<li>DEF</li>
-	<li>Note: There is no explicit TE position required for starters.</li>
     </ul>
+    <p>Note: There is no explicit starting TE position.</p>
 
     <h3 bind:this={twoTwo}>2.2 - Bench</h3>
-    <p>There are six bench spots available for any position. There are no position limits.</p>
+    <p>There are six bench spots with no position limits.</p>
     
     <h3 bind:this={twoThree}>2.3 - Injured Reserved</h3>
-    <p>There is one injured reserved position. The following designations are allowed: OUT, Doubtful, IR, and COVID-19.</p>
+    <p>There is one injured reserved spot. The following designations are allowed: OUT, Doubtful, IR, and COVID-19.</p>
     
     <h2 class="sectionHeading" bind:this={three}>Section 3: Draft Rules</h2>
 
@@ -330,7 +330,7 @@
     
     <h3 bind:this={fiveOne}>5.1 - Waivers</h3>
     
-	<h4 bind:this={fiveOneOne}>5.1.1 - Free Agent Aquisition Budget (FAAB)</h4>
+	<h4 bind:this={fiveOneOne}>5.1.1 - FAAB (Free Agent Acquisition Budget)</h4>
     		<div class="subBlock">
         		<p>Placeholder</p>
     		</div>
@@ -340,10 +340,10 @@
         		<p>Placeholder</p>
     		</div>
 
-    <h3 bind:this={fiveTwo}>5.2 - Trades (FAAB)</h3>
+    <h3 bind:this={fiveTwo}>5.2 - Trades</h3>
     <p>Placeholder</p>	
 	
-    <h2 class="sectionHeading" bind:this={six}>Section 6: Trades</h2>
+    <h2 class="sectionHeading" bind:this={six}>Section 6: Playoffs</h2>
     
     <h3 bind:this={sixOne}>6.1 - Seeding</h3>
 	<h4 bind:this={sixOneOne}>6.1.1 - 8-team League</h4>
@@ -381,7 +381,7 @@
     <h3 bind:this={sevenFour}>7.4 - Trading Keepers</h3>
     <p>Placeholder</p>
 	
-    <h3 bind:this={sevenFive}>7.5 - Keepers Scenarios</h3>
+    <h3 bind:this={sevenFive}>7.5 - Keeper Scenarios</h3>
     <p>Placeholder</p>
 
 </div>
