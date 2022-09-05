@@ -9,7 +9,6 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 export const homepageText = `
   <p>Welcome!</p>
   <p>This is the official website for the Serving Up Those Who Serve fantasy football league. The league was founded in 2016, and it became a keeper league in 2018. The league's owners are predominantly employees at Enable Resource Group, but close friends and family are always welcome.</p>
-  <p></p>
 `;
 
 /*   STEP 3   */
