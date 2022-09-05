@@ -135,17 +135,17 @@
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Transactions</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 - Waivers</h4>
-	    <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOneOne)}>5.1.1 - FAAB (Free Agent Acquisition Budget)</h4>
-            <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOneTwo)}>5.1.2 - Waiver Schedule</h4>
+	    <h5 class="noUnderscore clickable" on:click={() => goToSection(fiveOneOne)}>5.1.1 - FAAB (Free Agent Acquisition Budget)</h5>
+            <h5 class="noUnderscore clickable" on:click={() => goToSection(fiveOneTwo)}>5.1.2 - Waiver Schedule</h5>
 	<h4 class="noUnderscore clickable" on:click={() => goToSection(fiveTwo)}>5.2 - Trades</h4>
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Playoffs</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 - Seeding</h4>
-	    	<h4 class="noUnderscore clickable" on:click={() => goToSection(sixOneOne)}>6.1.1 - 8-team League</h4>
-            	<h4 class="noUnderscore clickable" on:click={() => goToSection(sixOneTwo)}>6.1.2 - 10-team League</h4>
-		<h4 class="noUnderscore clickable" on:click={() => goToSection(sixOneThree)}>6.1.3 - 12-team League</h4>
-		<h4 class="noUnderscore clickable" on:click={() => goToSection(sixOneFour)}>6.1.4 - 14-team League</h4>
+	    	<h5 class="noUnderscore clickable" on:click={() => goToSection(sixOneOne)}>6.1.1 - 8-team League</h5>
+            	<h5 class="noUnderscore clickable" on:click={() => goToSection(sixOneTwo)}>6.1.2 - 10-team League</h5>
+		<h5 class="noUnderscore clickable" on:click={() => goToSection(sixOneThree)}>6.1.3 - 12-team League</h5>
+		<h5 class="noUnderscore clickable" on:click={() => goToSection(sixOneFour)}>6.1.4 - 14-team League</h5>
         <!-- <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4> -->
 
