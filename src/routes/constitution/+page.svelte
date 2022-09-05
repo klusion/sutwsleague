@@ -158,7 +158,7 @@
         <li>Defensive scoring changes</li>
         <li>Rushing scoring changes</li>
         <li>Both FLEX positions are now RB/WR/TE</li>
-        <li>Number of keepers changing from 3 to 2</li>
+        <li>The number of keepers are changing from 3 to 2</li>
     </ul>
     
     <!-- <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
@@ -181,12 +181,8 @@
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Fantasy Platform</h3>
 
-    <ul>
-        <li>Sleeper - https://sleeper.app</li>
-        <li>Sleeper has only been around for a few years, but is built on a modern platform and allows for custom scoring, roster positions, keeper rules, etc.</li>
-        <li>iOS and Android app, real-time updates, notifications, etc./li>
-    </ul>
-    
+    <p>We use the Sleeper fantasy football platform: <a href="https://sleeper.app">https://sleeper.app</a>. Sleeper has only been around for a few years, but it is built on a modern platform that allows for custom scoring, roster positions, keeper rules, etc. Sleeper has a web app, iOS, and Android app for real-time updates and notifications.</p>
+        
     <!-- <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
     
     <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
@@ -229,7 +225,7 @@
        
     <h3 bind:this={oneThree}>1.3 League Fees</h3>
     
-    <p>League fees are {dues}$ every season. Fees are collected through <a href="https://www.leaguesafe.com/league/4044415">LeagueSafe</a> and are due the day of the draft pick lottery. The draft pick lottery is one week before the draft, which is held two Fridays before Labor Day weekend. All managers must be fully paid before the draft pick lottery will be performed.</p>
+    <p>League fees are ${dues} every season. Fees are collected through <a href="https://www.leaguesafe.com/league/4044415">LeagueSafe</a> and are due the day of the draft pick lottery. The draft pick lottery is one week before the draft, which is held two Fridays before Labor Day weekend. All managers must be fully paid before the draft pick lottery will be performed.</p>
 	
     <!-- <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
 
@@ -239,10 +235,10 @@
     
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 5.5}$</li>
-        <li>2nd place: {dues * 3.5}$</li>
-        <li>3rd place: {dues * 2}$</li>
-    	<li>4th place: {dues}$</li>
+        <li>1st place: ${dues * 5.5}</li>
+        <li>2nd place: ${dues * 3.5}</li>
+        <li>3rd place: ${dues * 2}</li>
+    	<li>4th place: ${dues}</li>
     </ul>
     
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
