@@ -121,7 +121,7 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: Draft Rules</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.1 - Draft Type</h4>
-	<h4 class="noUnderscore clickable" on:click={() => goToSection(threeTwo)}>3.2 - Draft Order</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(threeTwo)}>3.2 - Draft Lottery (Draft Order)</h4>
 	<h4 class="noUnderscore clickable" on:click={() => goToSection(threeThree)}>3.3 - League Divisions</h4>
 	<h4 class="noUnderscore clickable" on:click={() => goToSection(threeFour)}>3.4 - Consolation Pick</h4>
     
@@ -289,16 +289,25 @@
     <h2 class="sectionHeading" bind:this={three}>Section 3: Draft Rules</h2>
 
     <h3 bind:this={threeOne}>3.1 - Draft Type</h3>
-    <p>Placeholder</p>
+    <p>Traditional snake draft with 90 seconds per draft pick. The CPU will automatically draft a player if the entire 90 seconds is exhausted and there is no player in the owner's draft queue.</p>
 
-    <h3 bind:this={threeTwo}>3.2 - Draft Order</h3>
-    <p>Placeholder</p>
+    <h3 bind:this={threeTwo}>3.2 - Draft Lottery (Draft Order)</h3>
+    <p>A draft lottery will be held to determine the draft pick order. The draft lottery will not be held until all of the league fees are paid.</p>
+	
+    <p>Each owner/team will have one entry in the lottery with the exception of the winner of fifth place game the previous year, who will receive two entries. The owners who placed fifth through last the previous year, or are newcomers to the league, will be placed in a bowl. 
+	A owner will be selected at random from the bowl. The owner will have an opportunity to choose their draft position. If the owner cannot be reached, they will be given the highest draft position available.</p>
+
+    <p>Once everyone from the first pool of owners is selected, the entries for owners/teams who finished first through fourth will be placed in the bowl and randomly chosen.</p>
 
     <h3 bind:this={threeThree}>3.3 - League Divisions</h3>
-    <p>Placeholder</p>
+    <p>League divisions will be set according to the draft lottery pick order. A twelve-team league will have three division. The first four people selected will be in a division together, followed by the next four, and then the final four. An eight-team league will have one division. 
+	    A ten-team league will have two divisions of five. A fourteen-team league, heaven forbid, will have two divisions of seven.</p>
 	
     <h3 bind:this={threeFour}>3.4 - Consolation Pick</h3>
-    <p>Placeholder</p>
+    <p>To give owners something to play for in the consolation bracket, the winner of the consolation bracket will be granted a very unique power for next year’s draft. The ability to move up or down the draft one slot once the draft order is determined.</p>
+    
+    <p>If the owner decides not to use this ability, they may trade it to another owner. The receiving owner may move up or down the draft order one slot, but at a cost. 
+	    The winner of the consolation bracket may select any player (excluding keepers) picked from rounds nine through fifteen to be traded to them from the owner who accepted the consolation pick. This trade must be accepted as long as the player traded back is at the same position.</p>
     
     <h2 class="sectionHeading" bind:this={four}>Section 4: Scoring System</h2>
     
