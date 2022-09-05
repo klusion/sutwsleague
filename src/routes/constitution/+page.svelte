@@ -96,12 +96,12 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">LEGENDS LEAGUE CONSTITUTION</h1>
+    <h1 class="noUnderscore">SERVING UP THOSE WHO SERVE LEAGUE CONSTITUTION</h1>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: Roster</h3>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: League Rules</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Changes for 2022</h4>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Trading</h4>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
@@ -145,24 +145,19 @@
     
     <hr />
     
-    <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
+    <h2 class="sectionHeading" bind:this={one}>Section 1: League Rules</h2>
     
-    <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
+    <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Changes for 2022</h3>
     
-    <p>28 Total Players</p>
+    <!-- <p>28 Total Players</p>
     
-    <p class="underscore">Starters</p>
+    <p class="underscore">Starters</p> -->
+	
     <ul>
-        <li>QB</li>
-        <li>RB</li>
-        <li>RB</li>
-        <li>WR</li>
-        <li>WR</li>
-        <li>TE</li>
-        <li>FLEX (RB/WR/TE)</li>
-        <li>FLEX (RB/WR)</li>
-        <li>D/ST</li>
-        <li>K</li>
+        <li>Defensive scoring changes</li>
+        <li>Rushing scoring changes</li>
+        <li>Both FLEX positions are now RB/WR/TE</li>
+        <li>Number of keepers changing from 3 to 2</li>
     </ul>
     
     <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
