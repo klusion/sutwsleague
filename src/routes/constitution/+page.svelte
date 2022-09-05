@@ -151,11 +151,11 @@
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: Keeper Rules</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 League Dues</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenTwo)}>7.2 Payout</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenThree)}>7.3 Raising Dues</h4>
-	<h4 class="noUnderscore clickable" on:click={() => goToSection(sevenFour)}>7.4 Raising Dues</h4>
-	<h4 class="noUnderscore clickable" on:click={() => goToSection(sevenFive)}>7.5 Raising Dues</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 - Changes for 2022</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenTwo)}>7.2 - Drafted Players</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenThree)}>7.3 - Undrafted Players</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(sevenFour)}>7.4 - Trading Keepers</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(sevenFive)}>7.5 - Keeper Scenarios</h4>
     
     
     <hr />
@@ -372,7 +372,7 @@
     <h3 bind:this={sevenOne}>7.1 - Changes for 2022</h3>
     <p>Placeholder</p>
     
-    <h3 bind:this={sevenTwo}>7.2 - General</h3>
+    <h3 bind:this={sevenTwo}>7.2 - Drafted Players</h3>
     <p>Placeholder</p>
 
     <h3 bind:this={sevenThree}>7.3 - Undrafted Players (Free Agents)</h3>
