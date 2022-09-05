@@ -289,33 +289,52 @@
     <h2 class="sectionHeading" bind:this={three}>Section 3: Draft Rules</h2>
 
     <h3 bind:this={threeOne}>3.1 - Draft Type</h3>
-    <p>Traditional snake draft with 90 seconds per draft pick. The CPU will automatically draft a player if the entire 90 seconds is exhausted and there is no player in the owner's draft queue.</p>
+    <p>Traditional snake draft with 90 seconds per draft pick. The CPU will automatically draft a player (based on ADP) if the entire 90 seconds is exhausted and there is no player in the owner's draft queue.</p>
 
     <h3 bind:this={threeTwo}>3.2 - Draft Lottery (Draft Order)</h3>
     <p>A draft lottery will be held to determine the draft pick order. The draft lottery will not be held until all of the league fees are paid.</p>
 	
-    <p>Each owner/team will have one entry in the lottery with the exception of the winner of fifth place game the previous year, who will receive two entries. The owners who placed fifth through last the previous year, or are newcomers to the league, will be placed in a bowl. 
-	A owner will be selected at random from the bowl. The owner will have an opportunity to choose their draft position. If the owner cannot be reached, they will be given the highest draft position available.</p>
+    <p>Each owner/team will have one entry in the lottery with the exception of the winner of fifth place game the previous year, who will receive two entries. The owners who placed fifth through last the previous year, or are newcomers to the league, will have their entries placed in a bowl. 
+	A entry will be selected at random from the bowl. The owner of the entry will have an opportunity to choose their draft position. If the owner cannot be reached, they will be given the highest draft position available.</p>
 
     <p>Once everyone from the first pool of owners is selected, the entries for owners/teams who finished first through fourth will be placed in the bowl and randomly chosen.</p>
 
     <h3 bind:this={threeThree}>3.3 - League Divisions</h3>
-    <p>League divisions will be set according to the draft lottery pick order. A twelve-team league will have three division. The first four people selected will be in a division together, followed by the next four, and then the final four. An eight-team league will have one division. 
+    <p>League divisions will be set according to the draft lottery pick order. A twelve-team league will have three divisions. The first four people selected will be in a division together, followed by the next four, and then the final four. An eight-team league will have one division. 
 	    A ten-team league will have two divisions of five. A fourteen-team league, heaven forbid, will have two divisions of seven.</p>
 	
     <h3 bind:this={threeFour}>3.4 - Consolation Pick</h3>
-    <p>To give owners something to play for in the consolation bracket, the winner of the consolation bracket will be granted a very unique power for next year’s draft. The ability to move up or down the draft one slot once the draft order is determined.</p>
+    <p>To give owners something to play for in the consolation bracket, the winner of the consolation bracket will be granted a very unique power for next year’s draft. The ability to move up or down one draft position once the draft order is determined.</p>
     
-    <p>If the owner decides not to use this ability, they may trade it to another owner. The receiving owner may move up or down the draft order one slot, but at a cost. 
+    <p>If the owner decides not to use this ability, they may trade it to another owner. The receiving owner may move up or down one draft position, but at a cost. 
 	    The winner of the consolation bracket may select any player (excluding keepers) picked from rounds nine through fifteen to be traded to them from the owner who accepted the consolation pick. This trade must be accepted as long as the player traded back is at the same position.</p>
     
     <h2 class="sectionHeading" bind:this={four}>Section 4: Scoring System</h2>
     
     <h3 bind:this={fourOne}>4.1 - Passing</h3>
-    <p>Placeholder</p>
+    <ul>
+        <li>25 Passing Yards = 1 points</li>
+	<li>Passing Touchdown = 6 points</li>
+        <li>Interception = -3 points</li>
+	<li>Interception Returned for a Touchdown = -3 additional points</li>
+	<li>Passing Play of 40+ yards = .5 bonus points</li>
+	<li>Passing Touchdown 40+ yards = .5 bonus points</li>
+    	<li>25 Completions = 1 bonus point</li>
+    	<li>300-399 Passing Yards = 1 bonus point</li>
+    	<li>400+ Passing Yards = 1 bonus point</li>
+    </ul>
     
     <h3 bind:this={fourTwo}>4.2 - Rushing</h3>
-    <p>Placeholder</p>
+    <ul>
+        <li>10 Rushing Yards = 1 point</li>
+	<li>Carry = .1 point</li>
+        <li>Rushing Play of 40+ yards = .5 bonus points</li>
+	<li>Rushing Touchdown of 40+ yards = .5 bonus points</li>
+    	<li>20 Carries = 1 bonus point</li>
+    	<li>100-199 Rushing Yards = 1 bonus point</li>
+    	<li>200+ Rushing Yards = 1 bonus point</li>
+    	<li>200+ Rushing and Receiving Yards Combined = 1 bonus point</li>
+    </ul>
 	
     <h3 bind:this={fourThree}>4.3 - Receiving</h3>
     <p>Placeholder</p>
