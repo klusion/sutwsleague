@@ -96,20 +96,21 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">SERVING UP THOSE WHO SERVE LEAGUE CONSTITUTION</h1>
+    <h1 class="noUnderscore">LEAGUE CONSTITUTION</h1>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: League Rules</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Changes for 2022</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Trading</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
+            <!-- <h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5> -->
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Fantasy Platform</h4>
+            <!-- <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>1.2.2 Lending Players Prohibition</h5>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoThree)}>1.2.3 Trade Deadline</h5>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFour)}>1.2.4 Trade Restrictions</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFive)}>1.2.5 Veto/Trade Process</h5>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 Waiver Wire</h4>
+            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFive)}>1.2.5 Veto/Trade Process</h5> -->
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 League Fees</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.4 League Payout</h4>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Drafting</h3>
     
@@ -160,7 +161,7 @@
         <li>Number of keepers changing from 3 to 2</li>
     </ul>
     
-    <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
+    <!-- <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
 
     <p>1 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
     
@@ -175,12 +176,18 @@
                 <tr><td>D/ST</td><td class="right">3</td></tr>
                 <tr><td>K</td><td class="right">3</td></tr>
             </table>
-        </div>
+        </div> -->
 
 
-    <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
+    <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Fantasy Platform</h3>
+
+    <ul>
+        <li>Sleeper - https://sleeper.app</li>
+        <li>Sleeper has only been around for a few years, but is built on a modern platform and allows for custom scoring, roster positions, keeper rules, etc.</li>
+        <li>iOS and Android app, real-time updates, notifications, etc./li>
+    </ul>
     
-    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
+    <!-- <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
     
     <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
     <div class="subBlock">
@@ -217,16 +224,26 @@
     <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
     <div class="subBlock">
         <p>A total of 7 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
-    </div>
+    </div> -->
     
+       
+    <h3 bind:this={oneThree}>1.3 League Fees</h3>
     
-    
-    <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
-    
-    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
+    <p>League fees are {dues}$ every season. Fees are collected through <a href="https://www.leaguesafe.com/league/4044415">LeagueSafe</a> and are due the day of the draft pick lottery. The draft pick lottery is one week before the draft, which is held two Fridays before Labor Day weekend. All managers must be fully paid before the draft pick lottery will be performed.</p>
+	
+    <!-- <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
 
-    <p>FAAB budgets will reset each season in January.</p>
+    <p>FAAB budgets will reset each season in January.</p> -->
     
+    <h3 bind:this={oneFour}>1.4 League Payout</h3>
+    
+    <p>League payout is structured as follows:</p>
+    <ul>
+        <li>1st place: {dues * 5.5}$</li>
+        <li>2nd place: {dues * 3.5}$</li>
+        <li>3rd place: {dues * 2}$</li>
+    	<li>4th place: {dues}$</li>
+    </ul>
     
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     
