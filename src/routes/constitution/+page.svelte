@@ -456,10 +456,17 @@
     <h2 class="sectionHeading" bind:this={seven}>Section 7: Keepers</h2>
     
     <h3 bind:this={sevenOne}>7.1 - Changes for 2022</h3>
-    <p>Placeholder</p>
+    <ul>
+        <li>Teams may select up to two players to keep</li>
+        <li>You may only keep one player at each position (RB, WR, QB, etc.)</li>
+    </ul>
     
     <h3 bind:this={sevenTwo}>7.2 - Drafted Players</h3>
-    <p>Placeholder</p>
+    <p>A player may be designated as a keeper for two years (tenure) on a team. This means the player was on your team for three seasons total. On your roster for the end of the first season, then the next two seasons if so desired. If you trade for a player, his tenure resets.</p>
+    <p>The cost of a keeper is the round they were drafted the previous year minus one. Example: Player was drafted in the 14th round - 1 round = Keeper in the 13th round</p>
+    <p>1st round picks CANNOT be designated as keepers. You can only keep one player at each position.</p>
+    <p>The deadline to make your keeper designations is two days before the draft. I will send out reminders and review the keepers. If a keeper claim is denied, I will let the owner know why and the owner may designate another keeper selection.</p>
+    <p>Note: You are not locked into your keeper selection. You can change your keepers up to the start of the draft. The deadline is to allow me to set the draft board. If you change your mind on players you are keeping or work out a trade with about owner, let me know.</p>
 
     <h3 bind:this={sevenThree}>7.3 - Undrafted Players (Free Agents)</h3>
     <p>Placeholder</p>
