@@ -416,16 +416,16 @@
     		</div>
 
     <h3 bind:this={fiveTwo}>5.2 - Trades</h3>
-    <p>Trades are processed immediately once agreed upon. A trade will only be reverted if collusion is determined. I’m for competitive balance, and just because a trade seems unfair doesn’t mean it shouldn’t be allowed. Bad trades happen all the time in the NFL. 
+    	<p>Trades are processed immediately once agreed upon. A trade will only be reverted if collusion is determined. I’m for competitive balance, and just because a trade seems unfair doesn’t mean it shouldn’t be allowed. Bad trades happen all the time in the NFL. 
 	    If the league collectively voices they are against a trade, I will create a poll and ask everyone to vote for or against the trade.</p>
 
-    <p>Multi-team trades are possible in Sleeper, so feel free to work with multiple teams. It is also possible to trade FAAB and draft picks. If you are trading draft picks, make sure the amount of draft picks traded away and received are equal. All teams must have the same amount of draft picks on draft day. 
+    	<p>Multi-team trades are possible in Sleeper, so feel free to work with multiple teams. It is also possible to trade FAAB and draft picks. If you are trading draft picks, make sure the amount of draft picks traded away and received are equal. All teams must have the same amount of draft picks on draft day. 
 	    Draft pick trades are only allowed for the current year and the upcoming year.</p>
 
-    <p>If an owner leaves that traded away future draft picks, we will compensate by adding additional money to the slighted owner’s FAAB budget (depending on the draft round that was traded) and placing them first in the waiver priority for the first week.</p>
+    	<p>If an owner leaves that traded away future draft picks, we will compensate by adding additional money to the slighted owner’s FAAB budget (depending on the draft round that was traded) and placing them first in the waiver priority for the first week.</p>
 	
     <h2 class="sectionHeading" bind:this={six}>Section 6: Playoffs</h2>
-    <p>The playoffs begin Week 15 and end Week 17 (one week before the regular season ends). It is single-elimination.</p>
+    	<p>The playoffs begin Week 15 and end Week 17 (one week before the regular season ends). It is single-elimination.</p>
 	
     <!-- <h3 bind:this={sixOne}>6.1 - Seeding</h3>
 	<p>Every team advances to the playoffs. There is no first round "bye". Playoff seeding is based on record.</p> -->
@@ -462,19 +462,26 @@
     </ul>
     
     <h3 bind:this={sevenTwo}>7.2 - Drafted Players</h3>
-    <p>A player may be designated as a keeper for two years (tenure) on a team. This means the player was on your team for three seasons total. On your roster for the end of the first season, then the next two seasons if so desired. If you trade for a player, his tenure resets.</p>
-    <p>The cost of a keeper is the round they were drafted the previous year minus one. Example: Player was drafted in the 14th round - 1 round = Keeper in the 13th round</p>
-    <p>1st round picks CANNOT be designated as keepers. You can only keep one player at each position.</p>
-    <p>The deadline to make your keeper designations is two days before the draft. I will send out reminders and review the keepers. If a keeper claim is denied, I will let the owner know why and the owner may designate another keeper selection.</p>
-    <p>Note: You are not locked into your keeper selection. You can change your keepers up to the start of the draft. The deadline is to allow me to set the draft board. If you change your mind on players you are keeping or work out a trade with about owner, let me know.</p>
+    	<p>A player can be designated as a keeper for two years (tenure). This means the player was on a team for three seasons total. On a roster for the first season, then kept the next two seasons if so desired.</p>
+    	<p>The cost of a keeper is the round they were drafted the previous year minus one. Example: A player was drafted in the 14th round - 1 round = Keeper in the 13th round</p>
+    	<p>1st round picks CANNOT be designated as keepers. You can only keep one player at each position.</p>
+    	<p>If you trade for a player, his tenure resets.</p>
+    	<p>The deadline to make your keeper designations is two days before the draft. I will send out reminders and review the keepers. If a keeper claim is denied, I will let the owner know why and the owner may designate another keeper selection.</p>
+    	<p>Note: You are not locked into your keeper selection. You can change your keepers up to the start of the draft. The deadline is to allow me to set the draft board. If you change your mind on players you are keeping or work out a trade with about owner, let me know.</p>
 
     <h3 bind:this={sevenThree}>7.3 - Undrafted Players (Free Agents)</h3>
-    <p>Placeholder</p>
+	<p>The keeper cost for an undrafted player is an eighth round pick. Players who were drafted and later dropped retain their original draft round cost.</p>
+	<p>Only one waiver or free agent pickup may be designated as a keeper.</p>
 	
     <h3 bind:this={sevenFour}>7.4 - Trading Keepers</h3>
-    <p>Placeholder</p>
+	<p>Players who are traded maintain the draft cost of the original team. Example: You trade with Owner A for Sammy Watkins. If selected as a keeper, Watkins will be drafted in the same round Owner A drafted him minus one round.</p>
 	
     <h3 bind:this={sevenFive}>7.5 - Keeper Scenarios</h3>
-    <p>Placeholder</p>
+    	<p>You trade for a player and decide to designate them as a keeper. They were selected in the 7th round. You also decide to designate a player you drafted in the 7th round as a keeper. In this situation, one of those picks would be your 5th round pick and the other would be your 6th round (remember last year’s draft position minus one round). You get to choose which round the players are selected.</p>
+	<p>You select a waiver/free agent pickup to be one of your keepers. They will now be your 8th round pick. You also have a player you chose in the 9th round you would like as a keeper. One of those players will now be your 7th round pick and the other the 8th round (again you get to choose).</p>
+	<p>You trade for someone who was an 8th round pick, already have someone on your team that was an 8th round pick, and have a waiver pickup that will all be designated as keepers. The waiver pickup will be your 8th round pick. You will be allowed to choose the order for the remaining two keepers in the 6th and 7th round.</p>
+	<p>You choose your 2rd round pick from last year as a keeper. This is allowed, though it will be your 1st round pick in the upcoming draft. The following year you cannot designate that player as a keeper because he was your 1st round pick. (Remember: 1st round picks CANNOT be chosen as keepers)</p>
+	<p>I trade for a player who only had one year left for the keeper designation. On my team his three year tenure status resets. I drop the player and the original team who had the player picks him back up, or I end up trading the player back to the original team later in the season. The player’s keeper tenure status would go back to what it originally was (one year left).</p>
+	<p>An owner from the previous year declines to play. A new owner to the league will have the choice to keep players from the previous owner or start fresh. If two or more owners decline to play, all of the players from the non-returning teams will be returned to the pool. In a similar vein, if the league expands, all of the players from the non-returning owners teams will be returned into the player pool.</p>
 
 </div>
