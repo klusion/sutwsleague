@@ -48,6 +48,7 @@
 		{/each}
 	{:catch error}
 		<!-- promise was rejected -->
-		<p>Something went wrong: {error.message}</p>
+		<p>No awards yet...</p>
+		<!-- <p>Something went wrong: {error.message}</p> -->
 	{/await}
 </div>
