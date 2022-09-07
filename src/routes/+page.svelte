@@ -170,8 +170,8 @@
             {/await}
         </div>
 
-        <div id="currentChamp">
-            {#await waitForAll(podiumsData, leagueTeamManagersData)}
+        <!-- <div id="currentChamp">
+            {#await podiumsData}
                 <p class="center">Retrieving awards...</p>
                 <LinearProgress indeterminate />
             {:then [podiums, leagueTeamManagers]}
@@ -188,7 +188,7 @@
             {:catch error}
                 <p class="center">Something went wrong: {error.message}</p>
             {/await}
-        </div>
+        </div> -->
 
         <div class="transactions" >
             <Transactions />
