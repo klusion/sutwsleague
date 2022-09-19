@@ -80,9 +80,9 @@
         }
 
         // Next look through record books
-        const leagueManagerRecords = [];
-        for(const key in records.regularSeasonData.leagueManagerRecords) {
-            const record = records.regularSeasonData.leagueManagerRecords[key];
+        const leagueRosterRecords = [];
+        for(const key in records.leagueRosterRecords) {
+            const record = records.leagueRosterRecords[key];
             record.rosterID = key;
             leagueManagerRecords.push(record);
         }
@@ -90,9 +90,9 @@
         const pointsRecords = [...leagueManagerRecords].sort((a, b) => b.fptsFor - a.fptsFor);
         const iqRecords = [...leagueManagerRecords].sort((a, b) => (b.fptsFor/b.potentialPoints) - (a.fptsFor/a.potentialPoints));
 
-        for(let i = 0; i < records.regularSeasonData.leagueWeekHighs.length; i++) {
-            const leagueWeekRecord = records.regularSeasonData.leagueWeekHighs[i];
-            const seasonLongRecord = records.regularSeasonData.mostSeasonLongPoints[i];
+        for(let i = 0; i < records.leagueWeekHighs.length; i++) {
+            const leagueWeekRecord = records.leagueWeekHighs[i];
+            const seasonLongRecord = records.mostSeasonLongPoints[i];
             const winRecord = winRecords[i];
             const pointsRecord = pointsRecords[i];
             const iqRecord = iqRecords[i];
@@ -159,7 +159,7 @@
                 })
             }
         }
-        for(const yearRecords of records.regularSeasonData.seasonWeekRecords) {
+        for(const yearRecords of records.seasonWeekRecords) {
             for(let i = 0; i < 3; i++) {
                 const seasonPointsRecord = yearRecords.seasonPointsHighs[i];
                 if(checkIfDeserves(seasonPointsRecord.rosterID, cRosterID, yearRecords.year)) {
