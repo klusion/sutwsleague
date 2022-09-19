@@ -368,7 +368,7 @@
         <li>Passes Defended = .25 points</li>
 	<li>Forced Punts = .5 points</li>
     	<li>3 and Out = .5 points</li>
-	<li>4th Down Stop = 2 points</li>
+	<li>4th Down Stop = 1 point</li>
 	<li>Forced Fumble = 1 point</li>
     	<li>Fumble Recovery = 1 point</li>
     	<li>Blocked Kick = 2 points</li>
@@ -376,8 +376,8 @@
 	<li>Special Teams Touchdown = 6 points</li>
 	<li>Safety = 4 points</li>
 	<li>Points Allowed (21-27) = -1 point</li>
-	<li>Points Allowed (28-34) = -1 point</li>
-    	<li>Points Allowed (35+) = -1 point</li>
+	<li>Points Allowed (28-34) = -2 points</li>
+    	<li>Points Allowed (35+) = -3 points</li>
     </ul>
 
     <!-- <ol>
@@ -416,8 +416,8 @@
     		</div>
 
     <h3 bind:this={fiveTwo}>5.2 - Trades</h3>
-    	<p>Trades are processed immediately once agreed upon. A trade will only be reverted if collusion is determined. I’m for competitive balance, and just because a trade seems unfair doesn’t mean it shouldn’t be allowed. Bad trades happen all the time in the NFL. 
-	    If the league collectively voices they are against a trade, I will create a poll and ask everyone to vote for or against the trade.</p>
+    	<p>Trades are processed immediately once agreed upon. A trade will only be reverted if collusion is determined. Just because a trade seems unfair doesn’t mean it shouldn’t be allowed. Bad trades happen all the time in the NFL. There is one exception, however. I will review any trade that involves draft picks, and discuss the fairness of the trade with both owners.
+	    If the league collectively voices they are against a trade, I will create a poll and ask everyone to vote for or against the trade to make the final decision.</p>
 
     	<p>Multi-team trades are possible in Sleeper, so feel free to work with multiple teams. It is also possible to trade FAAB and draft picks. If you are trading draft picks, make sure the amount of draft picks traded away and received are equal. All teams must have the same amount of draft picks on draft day. 
 	    Draft pick trades are only allowed for the current year and the upcoming year.</p>
