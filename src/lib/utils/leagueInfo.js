@@ -23,7 +23,8 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
      {
-       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       // "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID" : "331584598364389376",
        "name": "Andrew Adams",
        "tookOver": 2016, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
@@ -52,7 +53,7 @@ export const managers = [
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2009, // (optional) when did the manager start playing fantasy football
-       "favoriteTeam": "null", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": null, // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
          name: "N/A", // Can be anything (usually your rival's name)
