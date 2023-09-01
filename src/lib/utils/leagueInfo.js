@@ -46,9 +46,9 @@ export const managers = [
      },
      {
        "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "Phillip Goslin",
+       "name": "Noah Leake",
        "tookOver": 2016, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-       "location": "Nashville", // (optional)
+       "location": null, // (optional)
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2016, // (optional) when did the manager start playing fantasy football
@@ -134,13 +134,13 @@ export const managers = [
      },
      {
        "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "Kevin Conway",
-       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-       "location": "Nashville", // (optional)
+       "name": "Ryan Brown",
+       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "location": "Knoxville", // (optional)
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
-       "fantasyStart": 2020, // (optional) when did the manager start playing fantasy football
-       "favoriteTeam": "kc", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "fantasyStart": null, // (optional) when did the manager start playing fantasy football
+       "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": null, // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
          name: "N/A", // Can be anything (usually your rival's name)
@@ -178,13 +178,13 @@ export const managers = [
      },
      {
        "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "Khaleel Gatson-Bey",
-       "tookOver": 2016, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "name": "Mikey Fuqua",
+       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
-       "fantasyStart": 2010, // (optional) when did the manager start playing fantasy football
-       "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "fantasyStart": null, // (optional) when did the manager start playing fantasy football
+       "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": null, // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
          name: "N/A", // Can be anything (usually your rival's name)
@@ -200,12 +200,12 @@ export const managers = [
      },
      {
        "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "Lori Wood",
-       "tookOver": 2021, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "name": "Jacob Kruger",
+       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
-       "fantasyStart": 2021, // (optional) when did the manager start playing fantasy football
+       "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": null, // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
@@ -244,12 +244,12 @@ export const managers = [
      },
      {
        "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "Adam Grieves / Elijah Grieves",
-       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-       "location": "Nashville", // (optional)
+       "name": "Drew Schneider",
+       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "location": null, // (optional)
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
-       "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
+       "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": null, // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
