@@ -101,7 +101,7 @@
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: General Information</h3>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 - Changes for 2022</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 - Changes for 2023</h4>
             <!-- <h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5> -->
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 - Fantasy Platform</h4>
             <!-- <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
@@ -154,7 +154,7 @@
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: Keepers</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 - Changes for 2022</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 - Changes for 2023</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenTwo)}>7.2 - Drafted Players</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenThree)}>7.3 - Undrafted Players</h4>
 	<h4 class="noUnderscore clickable" on:click={() => goToSection(sevenFour)}>7.4 - Trading Keepers</h4>
@@ -165,17 +165,15 @@
     
     <h2 class="sectionHeading" bind:this={one}>Section 1: General Information</h2>
     
-    <h3 class="subSectionHeading" bind:this={oneOne}>1.1 - Changes for 2022</h3>
+    <h3 class="subSectionHeading" bind:this={oneOne}>1.1 - Changes for 2023</h3>
     
     <!-- <p>28 Total Players</p>
     
     <p class="underscore">Starters</p> -->
 	
     <ul>
-        <li>Defensive scoring changes</li>
-        <li>Rushing scoring changes</li>
-        <li>Both FLEX positions are now RB/WR/TE</li>
-        <li>The number of keepers are changing from 3 to 2</li>
+        <li>Entry fee changed from $40 to $50</li>
+	<li>You may keep two WRs as keepers. All other positions remain as one keeper.</li>
     </ul>
     
     <!-- <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
@@ -253,15 +251,16 @@
     <p>The league payout is structured as follows for a 12-team league:</p>
     <ul>
         <li>1st place: ${dues * 5.5}</li>
-        <li>2nd place: ${dues * 3.5}</li>
+        <li>2nd place: ${dues * 3}</li>
         <li>3rd place: ${dues * 2}</li>
     	<li>4th place: ${dues}</li>
+	<li>Side pot: ${dues * .5} (highest weekly point total for the entire season)</li>
     </ul>
 
     <p>The league payout is structured as follows for a 10-team league:</p>
     <ul>
-        <li>1st place: ${dues * 4.5}</li>
-        <li>2nd place: ${dues * 3}</li>
+        <li>1st place: ${dues * 5}</li>
+        <li>2nd place: ${dues * 2.5}</li>
         <li>3rd place: ${dues * 1.5}</li>
     	<li>4th place: ${dues * .5}</li>
 	<li>Side pot: ${dues * .5} (highest weekly point total for the entire season)</li>
@@ -405,13 +404,13 @@
 		<div class="subBlock">
 		<p>Waivers are processed Wednesday through Sunday at 6am.</p>
 		    <ul>
-			<li>Sunday = Free Agency</li>
+			<li>Sunday = Free Agency (waivers run at 2 am central)</li>
 			<li>Monday = Free Agency</li>
 			<li>Tuesday = Locked</li>
-			<li>Wednesday = Waivers run at 6am</li>
-			<li>Thursday = Waivers run at 6am</li>
-			<li>Friday = Waivers run at 6am</li>
-			<li>Saturday = Waivers run at 6am</li>
+			<li>Wednesday = Waivers run at 6 am central</li>
+			<li>Thursday = Waivers run at 6 am central</li>
+			<li>Friday = Waivers run at 6 am central</li>
+			<li>Saturday = Waivers run at 6 am central</li>
 		    </ul>
     		</div>
 
@@ -422,7 +421,7 @@
     	<p>Multi-team trades are possible in Sleeper, so feel free to work with multiple teams. It is also possible to trade FAAB and draft picks. If you are trading draft picks, make sure the amount of draft picks traded away and received are equal. All teams must have the same amount of draft picks on draft day. 
 	    Draft pick trades are only allowed for the current year and the upcoming year.</p>
 
-    	<p>If an owner leaves that traded away future draft picks, we will compensate by adding additional money to the slighted owner’s FAAB budget (depending on the draft round that was traded) and placing them first in the waiver priority for the first week.</p>
+    	<p>If an owner leaves that traded away future draft picks, we will compensate by adding additional money to the slighted owner’s FAAB budget (depending on the draft round that was traded).</p>
 	
     <h2 class="sectionHeading" bind:this={six}>Section 6: Playoffs</h2>
     	<p>The playoffs begin Week 15 and end Week 17 (one week before the regular season ends). It is single-elimination.</p>
@@ -455,10 +454,9 @@
 
     <h2 class="sectionHeading" bind:this={seven}>Section 7: Keepers</h2>
     
-    <h3 bind:this={sevenOne}>7.1 - Changes for 2022</h3>
+    <h3 bind:this={sevenOne}>7.1 - Changes for 2023</h3>
     <ul>
-        <li>Teams may select up to two players to keep</li>
-        <li>You may only keep one player at each position (RB, WR, QB, etc.)</li>
+        <li>You may keep up to two WRs. For all the other position, you may only keep one player (RB, TE, QB, etc.)</li>
     </ul>
     
     <h3 bind:this={sevenTwo}>7.2 - Drafted Players</h3>
@@ -466,7 +464,7 @@
     	<p>The cost of a keeper is the round they were drafted the previous year minus one. Example: A player was drafted in the 14th round - 1 round = Keeper in the 13th round</p>
     	<p>1st round picks CANNOT be designated as keepers. You can only keep one player at each position.</p>
     	<p>If you trade for a player, his tenure resets.</p>
-    	<p>The deadline to make your keeper designations is two days before the draft. I will send out reminders and review the keepers. If a keeper claim is denied, I will let the owner know why and the owner may designate another keeper selection.</p>
+    	<p>The deadline to make your keeper designations is three days before the draft. I will send out reminders and review the keepers. If a keeper claim is denied, I will let the owner know why and the owner may designate another keeper selection.</p>
     	<p>Note: You are not locked into your keeper selection. You can change your keepers up to the start of the draft. The deadline is to allow me to set the draft board. If you change your mind on players you are keeping or work out a trade with about owner, let me know.</p>
 
     <h3 bind:this={sevenThree}>7.3 - Undrafted Players (Free Agents)</h3>
