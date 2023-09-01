@@ -47,12 +47,12 @@ export const managers = [
      {
        "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Noah Leake",
-       "tookOver": 2016, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": null, // (optional)
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
-       "fantasyStart": 2016, // (optional) when did the manager start playing fantasy football
-       "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "fantasyStart": 2009, // (optional) when did the manager start playing fantasy football
+       "favoriteTeam": "null", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": null, // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
          name: "N/A", // Can be anything (usually your rival's name)
@@ -206,7 +206,7 @@ export const managers = [
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
-       "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "favoriteTeam": "car", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": null, // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
          name: "Earl Wood", // Can be anything (usually your rival's name)
@@ -250,7 +250,7 @@ export const managers = [
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
-       "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "favoriteTeam": "cle", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": null, // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
          name: "N/A", // Can be anything (usually your rival's name)
