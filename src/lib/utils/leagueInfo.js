@@ -26,7 +26,7 @@ export const managers = [
        // "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "managerID" : "331584598364389376",
        "name": "Andrew Adams",
-       "tookOver": 2016, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       // "tookOver": 2016, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
        "bio": "I love fantasy football!",
        "photo": "/managers/andrew.jpg", // square ratio recommended (no larger than 500x500)
@@ -46,9 +46,10 @@ export const managers = [
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       // "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID" : "960017265569636352",
        "name": "Noah Leake",
-       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       // "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": null, // (optional)
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
@@ -68,9 +69,10 @@ export const managers = [
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       // "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID" : "461362440987209728",
        "name": "Earl Wood",
-       "tookOver": 2019, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       // "tookOver": 2019, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
@@ -90,9 +92,10 @@ export const managers = [
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       // "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID" : "425833486520156160",
        "name": "Adrian Jordan",
-       "tookOver": 2016, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       // "tookOver": 2016, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
@@ -112,9 +115,10 @@ export const managers = [
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       // "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID" : "733102534985629696",
        "name": "Sean Richardson",
-       "tookOver": 2021, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       // "tookOver": 2021, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Jacksonville", // (optional)
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
@@ -134,9 +138,10 @@ export const managers = [
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       // "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID" : "741138567082016768",
        "name": "Ryan Brown",
-       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       // "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Knoxville", // (optional)
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
@@ -156,9 +161,10 @@ export const managers = [
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       // "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID" : "464265804616036352",
        "name": "Linda Lankford",
-       "tookOver": 2018, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       // "tookOver": 2018, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
@@ -178,9 +184,10 @@ export const managers = [
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       // "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID" : "993305014875619328",
        "name": "Mikey Fuqua",
-       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       // "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
@@ -200,9 +207,10 @@ export const managers = [
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       // "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID" : "994736883294957568",
        "name": "Jacob Kruger",
-       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       // "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
@@ -222,9 +230,10 @@ export const managers = [
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       // "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID" : "856387538993168384",
        "name": "Will Lovell",
-       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       // "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Dallas", // (optional)
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
@@ -244,9 +253,10 @@ export const managers = [
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       // "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID" : "995729303532896256",
        "name": "Drew Schneider",
-       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       // "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": null, // (optional)
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
@@ -266,9 +276,10 @@ export const managers = [
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       // "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID" : "865981128262156288",
        "name": "Dimitri Washington",
-       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       // "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Nashville", // (optional)
        "bio": "Coming soon",
        "photo": "/managers/enablelogo.png", // square ratio recommended (no larger than 500x500)
