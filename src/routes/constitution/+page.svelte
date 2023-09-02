@@ -174,6 +174,7 @@
     <ul>
         <li>Entry fee changed from $40 to $50</li>
 	<li>You may keep two WRs as keepers. All other positions remain as one keeper.</li>
+	<li>Draft pick trading is limited to the period between the draft pick lottery and the end of the draft. The draft picks involved must be for the draft that year.</li>
     </ul>
     
     <!-- <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
@@ -418,10 +419,13 @@
     	<p>Trades are processed immediately once agreed upon. A trade will only be reverted if collusion is determined. Just because a trade seems unfair doesn’t mean it shouldn’t be allowed. Bad trades happen all the time in the NFL. There is one exception, however. I will review any trade that involves draft picks, and discuss the fairness of the trade with both owners.
 	    If the league collectively voices they are against a trade, I will create a poll and ask everyone to vote for or against the trade to make the final decision.</p>
 
-    	<p>Multi-team trades are possible in Sleeper, so feel free to work with multiple teams. It is also possible to trade FAAB and draft picks. If you are trading draft picks, make sure the amount of draft picks traded away and received are equal. All teams must have the same amount of draft picks on draft day. 
-	    Draft pick trades are only allowed for the current year and the upcoming year.</p>
+    	<p>Multi-team trades are possible in Sleeper, so feel free to work with multiple teams.</p>
 
-    	<p>If an owner leaves that traded away future draft picks, we will compensate by adding additional money to the slighted owner’s FAAB budget (depending on the draft round that was traded).</p>
+	<p>It is also possible to trade FAAB and draft picks.</p>
+
+	<p>Draft pick trading is limited to the period between the draft pick lottery and the end of the draft. Draft pick trading is disabled during the season to prevent future draft pick trading. The draft picks involved must be for the draft that year.</p>
+
+	<p>If you are trading draft picks, make sure the amount of draft picks traded away and received are equal. All teams must have fifteen draft picks on draft day.</p>
 	
     <h2 class="sectionHeading" bind:this={six}>Section 6: Playoffs</h2>
     	<p>The playoffs begin Week 15 and end Week 17 (one week before the regular season ends). It is single-elimination.</p>
