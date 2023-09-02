@@ -423,7 +423,7 @@
 
 	<p>It is also possible to trade FAAB and draft picks.</p>
 
-	<p>Draft pick trading is limited to the period between the draft pick lottery and the end of the draft. Draft pick trading is disabled during the season to prevent future draft pick trading. The draft picks involved must be for the draft that year.</p>
+	<p>Draft pick trading is limited to the period between the draft pick lottery and the end of the draft. Draft pick trading is disabled during the season to prevent trading future draft picks. The draft picks involved must be for the draft that year.</p>
 
 	<p>If you are trading draft picks, make sure the amount of draft picks traded away and received are equal. All teams must have fifteen draft picks on draft day.</p>
 	
