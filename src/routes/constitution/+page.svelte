@@ -403,15 +403,15 @@
 	
     	<h4 bind:this={fiveOneTwo}>5.1.2 - Waiver Schedule</h4>
 		<div class="subBlock">
-		<p>Waivers are processed Wednesday through Sunday at 6am.</p>
+		<p>Waivers are processed Wednesday through Sunday at 6 a.m.</p>
 		    <ul>
-			<li>Sunday = Free Agency (waivers run at 2 am central)</li>
+			<li>Sunday = Free Agency (waivers run at 6 a.m. central)</li>
 			<li>Monday = Free Agency</li>
 			<li>Tuesday = Locked</li>
-			<li>Wednesday = Waivers run at 6 am central</li>
-			<li>Thursday = Waivers run at 6 am central</li>
-			<li>Friday = Waivers run at 6 am central</li>
-			<li>Saturday = Waivers run at 6 am central</li>
+			<li>Wednesday = Waivers run at 2 a.m. central</li>
+			<li>Thursday = Waivers run at 6 a.m. central</li>
+			<li>Friday = Waivers run at 6 a.m. central</li>
+			<li>Saturday = Waivers run at 6 a.m. central</li>
 		    </ul>
     		</div>
 
@@ -445,8 +445,8 @@
 	
 	<h3 bind:this={sixThree}>6.3 - 12-team League</h3>
     		<div class="subBlock">
-        		<p>Six teams advance to the playoffs. The winner of each division secures a playoff seed, and the two teams with the best records secure a first round "bye" (1st and 2nd seed). The remaining teams are vying for the last three spots. The top two with the best records of the remaining teams will be the 4th and 5th seeds. 
-			Finally, the team with the most "total points for" of the remaining 5 teams will be the 6th seed.</p>
+        		<p>Six teams advance to the playoffs. The winner of each division secures a playoff seed. The two teams with the best records secure a first round "bye" (1st and 2nd seed). The leader of the third division and the two teams with the best records of those remaining will be the 3rd, 4th, and 5th seed.
+			(Note: The third division leader does not automatically become the 3rd seed. They are guaranteed a playoff berth of at least the 5th seed.) Finally, the team with the most "total points for" of the remaining 7 teams will be the 6th seed.</p>
     		</div>
 	
 	<h3 bind:this={sixFour}>6.4 - 14-team League</h3>
