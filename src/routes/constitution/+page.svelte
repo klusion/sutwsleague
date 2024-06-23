@@ -165,7 +165,7 @@
     
     <h2 class="sectionHeading" bind:this={one}>Section 1: General Information</h2>
     
-    <h3 class="subSectionHeading" bind:this={oneOne}>1.1 - Changes for 2023</h3>
+    <h3 class="subSectionHeading" bind:this={oneOne}>1.1 - Changes for 2024</h3>
     
     <!-- <p>28 Total Players</p>
     
@@ -458,9 +458,9 @@
 
     <h2 class="sectionHeading" bind:this={seven}>Section 7: Keepers</h2>
     
-    <h3 bind:this={sevenOne}>7.1 - Changes for 2023</h3>
+    <h3 bind:this={sevenOne}>7.1 - Changes for 2024</h3>
     <ul>
-        <li>You may keep up to two WRs. For all the other position, you may only keep one player (RB, TE, QB, etc.)</li>
+        <li>Updates coming soon...</li>
     </ul>
     
     <h3 bind:this={sevenTwo}>7.2 - Drafted Players</h3>
@@ -484,6 +484,6 @@
 	<p>You trade for someone who was an 8th round pick, already have someone on your team that was an 8th round pick, and have a waiver pickup that will all be designated as keepers. The waiver pickup will be your 8th round pick. You will be allowed to choose the order for the remaining two keepers in the 6th and 7th round.</p>
 	<p>You choose your 2rd round pick from last year as a keeper. This is allowed, though it will be your 1st round pick in the upcoming draft. The following year you cannot designate that player as a keeper because he was your 1st round pick. (Remember: 1st round picks CANNOT be chosen as keepers)</p>
 	<p>I trade for a player who only had one year left for the keeper designation. On my team his three year tenure status resets. I drop the player and the original team who had the player picks him back up, or I end up trading the player back to the original team later in the season. The player’s keeper tenure status would go back to what it originally was (one year left).</p>
-	<p>An owner from the previous year declines to play. A new owner to the league will have the choice to keep players from the previous owner or start fresh. If two or more owners decline to play, the commissioner will perform a coin flip to determine which new owner will get to take over the team of their choice. Neither one of the new owners are required to keep any players on the roster. If three or more owners decline the play, all of the players from the non-returning teams will be returned to the pool. In a similar vein, if the league expands, all of the players from the non-returning owners teams will be returned into the player pool.</p>
+	<p>An owner from the previous year declines to play. A new owner to the league will have the choice to keep players from the previous owner or start fresh. If two or more owners decline to play, the commissioner will perform a coin flip to determine which new owner will get to take over the team of their choice. Neither of the new owners are required to keep players from the roster they are taking over. If three or more owners decline the play, all of the players from the non-returning teams will be returned to the pool. In a similar vein, if the league expands, all of the players from the non-returning owners teams will be returned into the player pool.</p>
 
 </div>
