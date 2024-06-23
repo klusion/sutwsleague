@@ -101,7 +101,7 @@
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: General Information</h3>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 - Changes for 2023</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 - Changes for 2024</h4>
             <!-- <h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5> -->
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 - Fantasy Platform</h4>
             <!-- <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
@@ -154,7 +154,7 @@
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: Keepers</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 - Changes for 2023</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 - Changes for 2024</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenTwo)}>7.2 - Drafted Players</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenThree)}>7.3 - Undrafted Players</h4>
 	<h4 class="noUnderscore clickable" on:click={() => goToSection(sevenFour)}>7.4 - Trading Keepers</h4>
@@ -172,8 +172,6 @@
     <p class="underscore">Starters</p> -->
 	
     <ul>
-        <li>Entry fee changed from $40 to $50</li>
-	<li>You may keep two WRs as keepers. All other positions remain as one keeper.</li>
 	<li>Draft pick trading is limited to the period between the draft pick lottery and the end of the draft. The draft picks involved must be for the draft that year.</li>
     </ul>
     
