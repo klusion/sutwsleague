@@ -173,8 +173,7 @@
 	
     <ul>
 	<li>Draft pick trading is limited to the period between the draft pick lottery and the end of the draft. The draft picks involved must be for the draft that year.</li>
-	<li>Several changes to scoring this year. See class="noUnderscore clickable" on:click={() => goToSection(four)}>"Section 4: Scoring" for details.</li>
-	<li></li>
+	<li>Several changes to scoring this year. See "Section 4: Scoring" for details.</li>
     </ul>
     
     <!-- <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
@@ -324,18 +323,18 @@
 	<li>Passing Touchdown 40+ yards = .5 bonus points</li>
     	<li>25 Completions = 1 bonus point</li>
     	<li>300-399 Passing Yards = 1 bonus point</li>
-    	<li>400+ Passing Yards = 2 bonus points (Note: This bonus scoring replaces the previous bonus of 300-399 Passing Yards. The player will receive a total of 2 points not 3 points.)</li>
+    	<li>FIXED: 400+ Passing Yards = 2 bonus points (Note: The player will receive a total of 2 points not 3 points.)</li>
     </ul>
     
     <h3 bind:this={fourTwo}>4.2 - Rushing</h3>
     <ul>
         <li>10 Rushing Yards = 1 point</li>
-	<li>Rushing 1st Down = .25 points (Note: This replaces our scoring last season for Rushing Attempts. Rushing attempts are no longer scored as .1 points.)</li>
+	<li>NEW: Rushing 1st Down = .25 points (Note: Rushing attempts are no longer scored as .1 points.)</li>
         <li>Rushing Play of 40+ yards = .5 bonus points</li>
 	<li>Rushing Touchdown of 40+ yards = .5 bonus points</li>
-    	<li>20 Carries = 2 bonus points</li>
+    	<li>NEW: 20 Carries = 2 bonus points</li>
     	<li>100-199 Rushing Yards = 1 bonus point</li>
-    	<li>200+ Rushing Yards = 2 bonus points (Note: This bonus scoring replaces the previous bonus of 100-199 Rushing Yards. The player will receive a total of 2 points not 3 points.)</li>
+    	<li>FIXED: 200+ Rushing Yards = 2 bonus points (Note: The player will receive a total of 2 points not 3 points.)</li>
     	<li>200+ Rushing and Receiving Yards Combined = 1 bonus point</li>
     </ul>
 	
@@ -346,14 +345,14 @@
         <li>Receiving Play of 40+ yards = .5 bonus points</li>
 	<li>Receiving Touchdown of 40+ yards = .5 bonus points</li>
     	<li>100-199 Receiving Yards = 1 bonus point</li>
-    	<li>200+ Receiving Yards = 2 bonus points (Note: This bonus scoring replaces the previous bonus of 100-199 Receiving Yards. The player will receive a total of 2 points not 3 points.)</li>
+    	<li>FIXED: 200+ Receiving Yards = 2 bonus points (Note: The player will receive a total of 2 points not 3 points.)</li>
     	<li>200+ Rushing and Receiving Yards Combined = 1 bonus point</li>
     </ul>
 
     <h3 bind:this={fourFour}>4.4 - Kicking</h3>
     <ul>
         <li>PAT = 1 point</li>
-	<li>FG Made (18-49 yards) = 3 points (Note: 40-49 Yard FG Made is no longer scored as 4 points.)</li>
+	<li>NEW: FG Made (18-49 yards) = 3 points (Note: 40-49 Yard FG Made is no longer scored as 4 points.)</li>
         <li>FG Made (50+ yards) = 5 points</li>
     	<li>FG Miss = -1 point</li>
     </ul>
@@ -377,9 +376,9 @@
 	<li>Points Allowed (21-27) = -1 point</li>
 	<li>Points Allowed (28-34) = -2 points</li>
     	<li>Points Allowed (35+) = -3 points</li>
-	<li>300-399 Total Yards Allowed = -1 point</li>
-	<li>400-499 Total Yards Allowed = -2 points</li>
-    	<li>500+ Total Yards Allowed = -3 points</li>
+	<li>NEW: 300-399 Total Yards Allowed = -1 point</li>
+	<li>NEW: 400-499 Total Yards Allowed = -2 points</li>
+    	<li>NEW: 500+ Total Yards Allowed = -3 points</li>
     </ul>
 
     <!-- <ol>
