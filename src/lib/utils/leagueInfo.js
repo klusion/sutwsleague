@@ -1,5 +1,5 @@
 /*   STEP 1   */
-export const leagueID = "990429587853139968"; // your league ID
+export const leagueID = "1123035346733764608"; // your league ID (2023 season ID = 990429587853139968)
 export const leagueName = "Serving Up Those Who Serve"; // your league name
 export const dues = 50; // (optional) used in template constitution page
 export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
