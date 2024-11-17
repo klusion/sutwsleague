@@ -361,7 +361,7 @@
     <p>Our defensive scoring is unique and is based on the actual performance of the defense: sacks, tackles for loss, passes defended, forced punts, etc.</p>
 
     <ul>
-        <li>Sacks = .5 points</li>
+        <li>Sacks = .25 points</li>
 	<li>Tackles for Loss = .25 points</li>
         <li>Passes Defended = .25 points</li>
 	<li>Forced Punts = .5 points</li>
@@ -451,7 +451,7 @@
 	
 	<h3 bind:this={sixThree}>6.3 - 12-team League</h3>
     		<div class="subBlock">
-        		<p>Six teams advance to the playoffs. The winner of each division secures a playoff seed. The two teams with the best records secure a first round "bye" (1st and 2nd seed). The leader of the third division and the two teams with the best records of those remaining will be the 3rd, 4th, and 5th seed.
+        		<p>Six teams advance to the playoffs. The winner of each division secures a playoff seed. The two division leaders with the best records will secure a first round "bye" (1st and 2nd seed). The leader of the third division and the two teams with the best records of those remaining will be the 3rd, 4th, and 5th seed.
 			(Note: The third division leader does not automatically become the 3rd seed. They are guaranteed a playoff berth of at least the 5th seed.) Finally, the team with the most "total points for" of the remaining 7 teams will be the 6th seed.</p>
     		</div>
 	
@@ -466,7 +466,7 @@
     
     <h3 bind:this={sevenOne}>7.1 - Changes for 2024</h3>
     <ul>
-        <li>Updates coming soon...</li>
+        <li>None.</li>
     </ul>
     
     <h3 bind:this={sevenTwo}>7.2 - Drafted Players</h3>
